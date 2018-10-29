@@ -16,7 +16,9 @@
 
 # # project specific files
 SRC = matrix.c \
-  i2c_master.c
+  i2c_master.c \
+  i2c.c \
+  ssd1306.c
 
 # MCU name
 MCU = atmega32u4
